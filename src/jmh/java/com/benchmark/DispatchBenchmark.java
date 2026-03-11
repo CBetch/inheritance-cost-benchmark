@@ -18,7 +18,7 @@ import java.util.concurrent.TimeUnit;
 @OutputTimeUnit(TimeUnit.NANOSECONDS)
 @State(Scope.Thread)
 @Warmup(iterations = 3, time = 1, timeUnit = TimeUnit.SECONDS)
-@Measurement(iterations = 25, time = 1, timeUnit = TimeUnit.SECONDS)
+@Measurement(iterations = 100, time = 1, timeUnit = TimeUnit.SECONDS)
 @Fork(1)
 public class DispatchBenchmark {
 
