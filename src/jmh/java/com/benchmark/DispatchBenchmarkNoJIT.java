@@ -7,7 +7,6 @@ import com.benchmark.chains.Chain16;
 import com.benchmark.chains.Chain32;
 import com.benchmark.chains.Chain64;
 import com.benchmark.chains.Chain128;
-import com.benchmark.chains.Chain256;
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.infra.Blackhole;
 
@@ -45,7 +44,6 @@ public class DispatchBenchmarkNoJIT {
     private Shape chain32;
     private Shape chain64;
     private Shape chain128;
-    private Shape chain256;
 
     @Setup
     public void setup() {
@@ -57,7 +55,6 @@ public class DispatchBenchmarkNoJIT {
         chain32 = new Chain32(RADIUS);
         chain64  = new Chain64(RADIUS);
         chain128 = new Chain128(RADIUS);
-        chain256 = new Chain256(RADIUS);
     }
 
     // 1. Baseline: static call, no dispatch
@@ -106,10 +103,5 @@ public class DispatchBenchmarkNoJIT {
     @Benchmark
     public void chainDepth128(Blackhole bh) {
         bh.consume(chain128.area());
-    }
-
-    @Benchmark
-    public void chainDepth256(Blackhole bh) {
-        bh.consume(chain256.area());
     }
 }
