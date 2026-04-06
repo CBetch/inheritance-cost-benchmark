@@ -1,0 +1,1149 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 100 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth128
+
+# Run progress: 0.00% complete, ETA 00:15:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 64.711 ns/op
+# Warmup Iteration   2: 65.426 ns/op
+# Warmup Iteration   3: 64.696 ns/op
+Iteration   1: 65.832 ns/op
+Iteration   2: 64.866 ns/op
+Iteration   3: 64.748 ns/op
+Iteration   4: 64.864 ns/op
+Iteration   5: 64.738 ns/op
+Iteration   6: 65.054 ns/op
+Iteration   7: 64.768 ns/op
+Iteration   8: 64.745 ns/op
+Iteration   9: 64.758 ns/op
+Iteration  10: 64.740 ns/op
+Iteration  11: 64.749 ns/op
+Iteration  12: 64.791 ns/op
+Iteration  13: 64.731 ns/op
+Iteration  14: 64.753 ns/op
+Iteration  15: 64.744 ns/op
+Iteration  16: 64.732 ns/op
+Iteration  17: 65.846 ns/op
+Iteration  18: 65.855 ns/op
+Iteration  19: 64.727 ns/op
+Iteration  20: 64.756 ns/op
+Iteration  21: 64.791 ns/op
+Iteration  22: 64.753 ns/op
+Iteration  23: 64.738 ns/op
+Iteration  24: 64.753 ns/op
+Iteration  25: 64.731 ns/op
+Iteration  26: 64.747 ns/op
+Iteration  27: 64.741 ns/op
+Iteration  28: 64.722 ns/op
+Iteration  29: 64.774 ns/op
+Iteration  30: 64.748 ns/op
+Iteration  31: 64.735 ns/op
+Iteration  32: 64.746 ns/op
+Iteration  33: 64.999 ns/op
+Iteration  34: 64.831 ns/op
+Iteration  35: 64.748 ns/op
+Iteration  36: 64.725 ns/op
+Iteration  37: 64.748 ns/op
+Iteration  38: 64.756 ns/op
+Iteration  39: 64.736 ns/op
+Iteration  40: 64.748 ns/op
+Iteration  41: 64.743 ns/op
+Iteration  42: 64.740 ns/op
+Iteration  43: 64.756 ns/op
+Iteration  44: 64.747 ns/op
+Iteration  45: 64.742 ns/op
+Iteration  46: 64.723 ns/op
+Iteration  47: 64.745 ns/op
+Iteration  48: 64.757 ns/op
+Iteration  49: 64.732 ns/op
+Iteration  50: 65.862 ns/op
+Iteration  51: 65.848 ns/op
+Iteration  52: 64.748 ns/op
+Iteration  53: 64.748 ns/op
+Iteration  54: 64.776 ns/op
+Iteration  55: 64.724 ns/op
+Iteration  56: 64.705 ns/op
+Iteration  57: 64.734 ns/op
+Iteration  58: 64.754 ns/op
+Iteration  59: 64.756 ns/op
+Iteration  60: 64.741 ns/op
+Iteration  61: 64.729 ns/op
+Iteration  62: 64.773 ns/op
+Iteration  63: 64.727 ns/op
+Iteration  64: 64.768 ns/op
+Iteration  65: 64.773 ns/op
+Iteration  66: 64.718 ns/op
+Iteration  67: 64.801 ns/op
+Iteration  68: 64.744 ns/op
+Iteration  69: 64.740 ns/op
+Iteration  70: 64.721 ns/op
+Iteration  71: 64.744 ns/op
+Iteration  72: 64.717 ns/op
+Iteration  73: 64.725 ns/op
+Iteration  74: 64.742 ns/op
+Iteration  75: 64.740 ns/op
+Iteration  76: 64.725 ns/op
+Iteration  77: 64.717 ns/op
+Iteration  78: 64.737 ns/op
+Iteration  79: 64.724 ns/op
+Iteration  80: 65.844 ns/op
+Iteration  81: 65.847 ns/op
+Iteration  82: 64.769 ns/op
+Iteration  83: 64.767 ns/op
+Iteration  84: 66.513 ns/op
+Iteration  85: 64.754 ns/op
+Iteration  86: 64.747 ns/op
+Iteration  87: 64.755 ns/op
+Iteration  88: 64.690 ns/op
+Iteration  89: 64.734 ns/op
+Iteration  90: 64.766 ns/op
+Iteration  91: 64.736 ns/op
+Iteration  92: 64.739 ns/op
+Iteration  93: 64.846 ns/op
+Iteration  94: 64.731 ns/op
+Iteration  95: 64.831 ns/op
+Iteration  96: 64.775 ns/op
+Iteration  97: 64.724 ns/op
+Iteration  98: 64.724 ns/op
+Iteration  99: 64.731 ns/op
+Iteration 100: 64.727 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth128":
+  64.850 ±(99.9%) 0.112 ns/op [Average]
+  (min, avg, max) = (64.690, 64.850, 66.513), stdev = 0.330
+  CI (99.9%): [64.738, 64.962] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 100 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth16
+
+# Run progress: 11.11% complete, ETA 00:13:47
+# Fork: 1 of 1
+# Warmup Iteration   1: 64.476 ns/op
+# Warmup Iteration   2: 64.610 ns/op
+# Warmup Iteration   3: 64.431 ns/op
+Iteration   1: 64.512 ns/op
+Iteration   2: 64.421 ns/op
+Iteration   3: 64.449 ns/op
+Iteration   4: 64.519 ns/op
+Iteration   5: 64.428 ns/op
+Iteration   6: 64.456 ns/op
+Iteration   7: 64.421 ns/op
+Iteration   8: 64.468 ns/op
+Iteration   9: 64.468 ns/op
+Iteration  10: 64.436 ns/op
+Iteration  11: 64.459 ns/op
+Iteration  12: 64.427 ns/op
+Iteration  13: 64.557 ns/op
+Iteration  14: 64.444 ns/op
+Iteration  15: 64.427 ns/op
+Iteration  16: 64.438 ns/op
+Iteration  17: 64.437 ns/op
+Iteration  18: 64.863 ns/op
+Iteration  19: 67.247 ns/op
+Iteration  20: 64.489 ns/op
+Iteration  21: 64.488 ns/op
+Iteration  22: 64.588 ns/op
+Iteration  23: 64.498 ns/op
+Iteration  24: 64.523 ns/op
+Iteration  25: 64.498 ns/op
+Iteration  26: 64.507 ns/op
+Iteration  27: 64.625 ns/op
+Iteration  28: 64.499 ns/op
+Iteration  29: 64.537 ns/op
+Iteration  30: 64.519 ns/op
+Iteration  31: 64.510 ns/op
+Iteration  32: 64.561 ns/op
+Iteration  33: 64.925 ns/op
+Iteration  34: 64.537 ns/op
+Iteration  35: 64.480 ns/op
+Iteration  36: 64.419 ns/op
+Iteration  37: 64.416 ns/op
+Iteration  38: 64.466 ns/op
+Iteration  39: 64.492 ns/op
+Iteration  40: 64.481 ns/op
+Iteration  41: 64.453 ns/op
+Iteration  42: 64.422 ns/op
+Iteration  43: 64.418 ns/op
+Iteration  44: 64.451 ns/op
+Iteration  45: 64.460 ns/op
+Iteration  46: 64.427 ns/op
+Iteration  47: 64.469 ns/op
+Iteration  48: 64.495 ns/op
+Iteration  49: 66.324 ns/op
+Iteration  50: 64.466 ns/op
+Iteration  51: 64.453 ns/op
+Iteration  52: 64.462 ns/op
+Iteration  53: 64.450 ns/op
+Iteration  54: 64.590 ns/op
+Iteration  55: 64.485 ns/op
+Iteration  56: 64.437 ns/op
+Iteration  57: 64.539 ns/op
+Iteration  58: 64.464 ns/op
+Iteration  59: 64.445 ns/op
+Iteration  60: 64.541 ns/op
+Iteration  61: 64.426 ns/op
+Iteration  62: 64.538 ns/op
+Iteration  63: 64.504 ns/op
+Iteration  64: 64.503 ns/op
+Iteration  65: 64.455 ns/op
+Iteration  66: 64.504 ns/op
+Iteration  67: 64.644 ns/op
+Iteration  68: 64.453 ns/op
+Iteration  69: 64.419 ns/op
+Iteration  70: 64.461 ns/op
+Iteration  71: 64.431 ns/op
+Iteration  72: 64.445 ns/op
+Iteration  73: 64.428 ns/op
+Iteration  74: 64.486 ns/op
+Iteration  75: 64.738 ns/op
+Iteration  76: 64.506 ns/op
+Iteration  77: 64.873 ns/op
+Iteration  78: 64.475 ns/op
+Iteration  79: 64.681 ns/op
+Iteration  80: 64.453 ns/op
+Iteration  81: 64.500 ns/op
+Iteration  82: 64.611 ns/op
+Iteration  83: 64.434 ns/op
+Iteration  84: 64.459 ns/op
+Iteration  85: 64.416 ns/op
+Iteration  86: 64.423 ns/op
+Iteration  87: 64.430 ns/op
+Iteration  88: 64.435 ns/op
+Iteration  89: 64.421 ns/op
+Iteration  90: 64.508 ns/op
+Iteration  91: 64.427 ns/op
+Iteration  92: 64.439 ns/op
+Iteration  93: 65.243 ns/op
+Iteration  94: 64.613 ns/op
+Iteration  95: 64.422 ns/op
+Iteration  96: 64.444 ns/op
+Iteration  97: 64.448 ns/op
+Iteration  98: 64.420 ns/op
+Iteration  99: 64.422 ns/op
+Iteration 100: 64.440 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth16":
+  64.546 ±(99.9%) 0.118 ns/op [Average]
+  (min, avg, max) = (64.416, 64.546, 67.247), stdev = 0.349
+  CI (99.9%): [64.427, 64.664] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 100 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth2
+
+# Run progress: 22.22% complete, ETA 00:12:03
+# Fork: 1 of 1
+# Warmup Iteration   1: 64.937 ns/op
+# Warmup Iteration   2: 65.103 ns/op
+# Warmup Iteration   3: 64.949 ns/op
+Iteration   1: 64.931 ns/op
+Iteration   2: 64.940 ns/op
+Iteration   3: 64.942 ns/op
+Iteration   4: 64.944 ns/op
+Iteration   5: 64.936 ns/op
+Iteration   6: 64.944 ns/op
+Iteration   7: 65.000 ns/op
+Iteration   8: 64.941 ns/op
+Iteration   9: 64.932 ns/op
+Iteration  10: 64.932 ns/op
+Iteration  11: 64.916 ns/op
+Iteration  12: 64.931 ns/op
+Iteration  13: 64.925 ns/op
+Iteration  14: 64.951 ns/op
+Iteration  15: 64.957 ns/op
+Iteration  16: 64.926 ns/op
+Iteration  17: 64.948 ns/op
+Iteration  18: 64.980 ns/op
+Iteration  19: 64.939 ns/op
+Iteration  20: 64.953 ns/op
+Iteration  21: 64.936 ns/op
+Iteration  22: 64.936 ns/op
+Iteration  23: 64.938 ns/op
+Iteration  24: 64.952 ns/op
+Iteration  25: 64.957 ns/op
+Iteration  26: 64.988 ns/op
+Iteration  27: 64.965 ns/op
+Iteration  28: 64.966 ns/op
+Iteration  29: 64.969 ns/op
+Iteration  30: 65.063 ns/op
+Iteration  31: 64.939 ns/op
+Iteration  32: 64.944 ns/op
+Iteration  33: 65.258 ns/op
+Iteration  34: 65.013 ns/op
+Iteration  35: 64.959 ns/op
+Iteration  36: 65.053 ns/op
+Iteration  37: 64.972 ns/op
+Iteration  38: 65.062 ns/op
+Iteration  39: 64.935 ns/op
+Iteration  40: 64.948 ns/op
+Iteration  41: 64.932 ns/op
+Iteration  42: 64.951 ns/op
+Iteration  43: 64.975 ns/op
+Iteration  44: 64.991 ns/op
+Iteration  45: 64.937 ns/op
+Iteration  46: 64.939 ns/op
+Iteration  47: 64.926 ns/op
+Iteration  48: 64.888 ns/op
+Iteration  49: 64.918 ns/op
+Iteration  50: 65.046 ns/op
+Iteration  51: 64.931 ns/op
+Iteration  52: 64.934 ns/op
+Iteration  53: 64.938 ns/op
+Iteration  54: 64.931 ns/op
+Iteration  55: 64.960 ns/op
+Iteration  56: 64.943 ns/op
+Iteration  57: 66.653 ns/op
+Iteration  58: 64.937 ns/op
+Iteration  59: 64.927 ns/op
+Iteration  60: 64.935 ns/op
+Iteration  61: 64.936 ns/op
+Iteration  62: 64.947 ns/op
+Iteration  63: 64.929 ns/op
+Iteration  64: 64.946 ns/op
+Iteration  65: 64.932 ns/op
+Iteration  66: 64.929 ns/op
+Iteration  67: 65.006 ns/op
+Iteration  68: 64.928 ns/op
+Iteration  69: 64.950 ns/op
+Iteration  70: 64.929 ns/op
+Iteration  71: 64.943 ns/op
+Iteration  72: 64.945 ns/op
+Iteration  73: 64.934 ns/op
+Iteration  74: 64.942 ns/op
+Iteration  75: 64.942 ns/op
+Iteration  76: 64.933 ns/op
+Iteration  77: 64.960 ns/op
+Iteration  78: 64.939 ns/op
+Iteration  79: 64.931 ns/op
+Iteration  80: 64.942 ns/op
+Iteration  81: 64.934 ns/op
+Iteration  82: 64.937 ns/op
+Iteration  83: 64.917 ns/op
+Iteration  84: 64.946 ns/op
+Iteration  85: 65.122 ns/op
+Iteration  86: 64.935 ns/op
+Iteration  87: 64.938 ns/op
+Iteration  88: 64.943 ns/op
+Iteration  89: 64.932 ns/op
+Iteration  90: 65.072 ns/op
+Iteration  91: 64.947 ns/op
+Iteration  92: 64.918 ns/op
+Iteration  93: 64.927 ns/op
+Iteration  94: 65.036 ns/op
+Iteration  95: 64.931 ns/op
+Iteration  96: 64.929 ns/op
+Iteration  97: 64.951 ns/op
+Iteration  98: 64.916 ns/op
+Iteration  99: 64.938 ns/op
+Iteration 100: 64.940 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth2":
+  64.972 ±(99.9%) 0.060 ns/op [Average]
+  (min, avg, max) = (64.888, 64.972, 66.653), stdev = 0.176
+  CI (99.9%): [64.912, 65.031] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 100 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth32
+
+# Run progress: 33.33% complete, ETA 00:10:20
+# Fork: 1 of 1
+# Warmup Iteration   1: 68.018 ns/op
+# Warmup Iteration   2: 68.000 ns/op
+# Warmup Iteration   3: 68.013 ns/op
+Iteration   1: 68.393 ns/op
+Iteration   2: 68.017 ns/op
+Iteration   3: 68.014 ns/op
+Iteration   4: 67.984 ns/op
+Iteration   5: 67.992 ns/op
+Iteration   6: 68.021 ns/op
+Iteration   7: 67.995 ns/op
+Iteration   8: 68.004 ns/op
+Iteration   9: 67.983 ns/op
+Iteration  10: 67.996 ns/op
+Iteration  11: 68.007 ns/op
+Iteration  12: 68.002 ns/op
+Iteration  13: 68.025 ns/op
+Iteration  14: 68.003 ns/op
+Iteration  15: 68.002 ns/op
+Iteration  16: 67.971 ns/op
+Iteration  17: 68.466 ns/op
+Iteration  18: 68.386 ns/op
+Iteration  19: 67.988 ns/op
+Iteration  20: 68.008 ns/op
+Iteration  21: 68.015 ns/op
+Iteration  22: 68.007 ns/op
+Iteration  23: 68.057 ns/op
+Iteration  24: 67.984 ns/op
+Iteration  25: 68.008 ns/op
+Iteration  26: 68.181 ns/op
+Iteration  27: 68.009 ns/op
+Iteration  28: 68.004 ns/op
+Iteration  29: 67.987 ns/op
+Iteration  30: 67.987 ns/op
+Iteration  31: 68.030 ns/op
+Iteration  32: 68.003 ns/op
+Iteration  33: 69.883 ns/op
+Iteration  34: 67.993 ns/op
+Iteration  35: 67.988 ns/op
+Iteration  36: 67.997 ns/op
+Iteration  37: 68.006 ns/op
+Iteration  38: 68.005 ns/op
+Iteration  39: 68.961 ns/op
+Iteration  40: 67.994 ns/op
+Iteration  41: 68.003 ns/op
+Iteration  42: 67.993 ns/op
+Iteration  43: 68.013 ns/op
+Iteration  44: 67.983 ns/op
+Iteration  45: 68.081 ns/op
+Iteration  46: 68.247 ns/op
+Iteration  47: 67.998 ns/op
+Iteration  48: 67.995 ns/op
+Iteration  49: 67.983 ns/op
+Iteration  50: 68.431 ns/op
+Iteration  51: 68.349 ns/op
+Iteration  52: 67.994 ns/op
+Iteration  53: 69.888 ns/op
+Iteration  54: 68.010 ns/op
+Iteration  55: 67.987 ns/op
+Iteration  56: 67.992 ns/op
+Iteration  57: 67.998 ns/op
+Iteration  58: 68.030 ns/op
+Iteration  59: 68.005 ns/op
+Iteration  60: 67.986 ns/op
+Iteration  61: 68.031 ns/op
+Iteration  62: 68.006 ns/op
+Iteration  63: 68.004 ns/op
+Iteration  64: 68.000 ns/op
+Iteration  65: 67.993 ns/op
+Iteration  66: 68.003 ns/op
+Iteration  67: 68.071 ns/op
+Iteration  68: 68.011 ns/op
+Iteration  69: 67.993 ns/op
+Iteration  70: 67.995 ns/op
+Iteration  71: 68.057 ns/op
+Iteration  72: 68.058 ns/op
+Iteration  73: 68.052 ns/op
+Iteration  74: 68.014 ns/op
+Iteration  75: 68.010 ns/op
+Iteration  76: 67.995 ns/op
+Iteration  77: 68.001 ns/op
+Iteration  78: 67.989 ns/op
+Iteration  79: 67.983 ns/op
+Iteration  80: 68.365 ns/op
+Iteration  81: 68.374 ns/op
+Iteration  82: 68.020 ns/op
+Iteration  83: 67.996 ns/op
+Iteration  84: 67.985 ns/op
+Iteration  85: 67.990 ns/op
+Iteration  86: 67.984 ns/op
+Iteration  87: 68.007 ns/op
+Iteration  88: 68.357 ns/op
+Iteration  89: 68.026 ns/op
+Iteration  90: 68.005 ns/op
+Iteration  91: 68.014 ns/op
+Iteration  92: 68.001 ns/op
+Iteration  93: 68.002 ns/op
+Iteration  94: 67.993 ns/op
+Iteration  95: 67.991 ns/op
+Iteration  96: 67.985 ns/op
+Iteration  97: 67.997 ns/op
+Iteration  98: 68.018 ns/op
+Iteration  99: 67.992 ns/op
+Iteration 100: 67.981 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth32":
+  68.087 ±(99.9%) 0.100 ns/op [Average]
+  (min, avg, max) = (67.971, 68.087, 69.888), stdev = 0.295
+  CI (99.9%): [67.987, 68.187] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 100 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth4
+
+# Run progress: 44.44% complete, ETA 00:08:36
+# Fork: 1 of 1
+# Warmup Iteration   1: 64.490 ns/op
+# Warmup Iteration   2: 64.753 ns/op
+# Warmup Iteration   3: 64.485 ns/op
+Iteration   1: 64.500 ns/op
+Iteration   2: 64.494 ns/op
+Iteration   3: 64.489 ns/op
+Iteration   4: 64.498 ns/op
+Iteration   5: 64.481 ns/op
+Iteration   6: 64.474 ns/op
+Iteration   7: 64.486 ns/op
+Iteration   8: 64.494 ns/op
+Iteration   9: 64.495 ns/op
+Iteration  10: 64.483 ns/op
+Iteration  11: 64.485 ns/op
+Iteration  12: 64.562 ns/op
+Iteration  13: 64.476 ns/op
+Iteration  14: 64.477 ns/op
+Iteration  15: 64.485 ns/op
+Iteration  16: 64.475 ns/op
+Iteration  17: 64.478 ns/op
+Iteration  18: 64.510 ns/op
+Iteration  19: 64.477 ns/op
+Iteration  20: 68.142 ns/op
+Iteration  21: 64.489 ns/op
+Iteration  22: 64.455 ns/op
+Iteration  23: 64.490 ns/op
+Iteration  24: 64.471 ns/op
+Iteration  25: 64.477 ns/op
+Iteration  26: 64.483 ns/op
+Iteration  27: 64.482 ns/op
+Iteration  28: 64.468 ns/op
+Iteration  29: 64.487 ns/op
+Iteration  30: 64.540 ns/op
+Iteration  31: 66.204 ns/op
+Iteration  32: 64.490 ns/op
+Iteration  33: 64.530 ns/op
+Iteration  34: 64.504 ns/op
+Iteration  35: 64.470 ns/op
+Iteration  36: 64.485 ns/op
+Iteration  37: 64.500 ns/op
+Iteration  38: 64.486 ns/op
+Iteration  39: 64.483 ns/op
+Iteration  40: 64.558 ns/op
+Iteration  41: 64.528 ns/op
+Iteration  42: 64.471 ns/op
+Iteration  43: 64.492 ns/op
+Iteration  44: 64.480 ns/op
+Iteration  45: 64.487 ns/op
+Iteration  46: 64.473 ns/op
+Iteration  47: 68.145 ns/op
+Iteration  48: 68.168 ns/op
+Iteration  49: 64.499 ns/op
+Iteration  50: 64.496 ns/op
+Iteration  51: 64.474 ns/op
+Iteration  52: 64.480 ns/op
+Iteration  53: 64.474 ns/op
+Iteration  54: 64.482 ns/op
+Iteration  55: 64.479 ns/op
+Iteration  56: 64.467 ns/op
+Iteration  57: 64.498 ns/op
+Iteration  58: 64.465 ns/op
+Iteration  59: 64.500 ns/op
+Iteration  60: 64.493 ns/op
+Iteration  61: 64.530 ns/op
+Iteration  62: 64.484 ns/op
+Iteration  63: 64.481 ns/op
+Iteration  64: 64.484 ns/op
+Iteration  65: 64.465 ns/op
+Iteration  66: 64.472 ns/op
+Iteration  67: 64.586 ns/op
+Iteration  68: 64.577 ns/op
+Iteration  69: 64.493 ns/op
+Iteration  70: 64.494 ns/op
+Iteration  71: 64.476 ns/op
+Iteration  72: 64.489 ns/op
+Iteration  73: 64.475 ns/op
+Iteration  74: 64.473 ns/op
+Iteration  75: 64.479 ns/op
+Iteration  76: 64.506 ns/op
+Iteration  77: 68.138 ns/op
+Iteration  78: 68.106 ns/op
+Iteration  79: 64.486 ns/op
+Iteration  80: 64.497 ns/op
+Iteration  81: 64.485 ns/op
+Iteration  82: 64.471 ns/op
+Iteration  83: 64.469 ns/op
+Iteration  84: 64.475 ns/op
+Iteration  85: 64.455 ns/op
+Iteration  86: 64.461 ns/op
+Iteration  87: 64.483 ns/op
+Iteration  88: 68.129 ns/op
+Iteration  89: 68.127 ns/op
+Iteration  90: 64.497 ns/op
+Iteration  91: 64.514 ns/op
+Iteration  92: 64.490 ns/op
+Iteration  93: 64.473 ns/op
+Iteration  94: 64.482 ns/op
+Iteration  95: 64.479 ns/op
+Iteration  96: 64.465 ns/op
+Iteration  97: 64.482 ns/op
+Iteration  98: 64.490 ns/op
+Iteration  99: 64.477 ns/op
+Iteration 100: 64.497 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth4":
+  64.762 ±(99.9%) 0.321 ns/op [Average]
+  (min, avg, max) = (64.455, 64.762, 68.168), stdev = 0.946
+  CI (99.9%): [64.441, 65.083] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 100 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth64
+
+# Run progress: 55.56% complete, ETA 00:06:53
+# Fork: 1 of 1
+# Warmup Iteration   1: 67.508 ns/op
+# Warmup Iteration   2: 67.519 ns/op
+# Warmup Iteration   3: 67.510 ns/op
+Iteration   1: 67.510 ns/op
+Iteration   2: 67.507 ns/op
+Iteration   3: 67.510 ns/op
+Iteration   4: 67.521 ns/op
+Iteration   5: 67.551 ns/op
+Iteration   6: 67.493 ns/op
+Iteration   7: 67.482 ns/op
+Iteration   8: 67.503 ns/op
+Iteration   9: 67.493 ns/op
+Iteration  10: 67.514 ns/op
+Iteration  11: 67.504 ns/op
+Iteration  12: 67.503 ns/op
+Iteration  13: 67.487 ns/op
+Iteration  14: 67.499 ns/op
+Iteration  15: 67.510 ns/op
+Iteration  16: 67.506 ns/op
+Iteration  17: 67.521 ns/op
+Iteration  18: 67.503 ns/op
+Iteration  19: 67.505 ns/op
+Iteration  20: 67.506 ns/op
+Iteration  21: 67.520 ns/op
+Iteration  22: 67.506 ns/op
+Iteration  23: 67.491 ns/op
+Iteration  24: 67.496 ns/op
+Iteration  25: 67.491 ns/op
+Iteration  26: 67.818 ns/op
+Iteration  27: 67.527 ns/op
+Iteration  28: 67.496 ns/op
+Iteration  29: 67.487 ns/op
+Iteration  30: 67.513 ns/op
+Iteration  31: 67.493 ns/op
+Iteration  32: 67.493 ns/op
+Iteration  33: 67.494 ns/op
+Iteration  34: 67.519 ns/op
+Iteration  35: 67.502 ns/op
+Iteration  36: 67.523 ns/op
+Iteration  37: 67.544 ns/op
+Iteration  38: 67.503 ns/op
+Iteration  39: 67.476 ns/op
+Iteration  40: 67.527 ns/op
+Iteration  41: 67.495 ns/op
+Iteration  42: 67.492 ns/op
+Iteration  43: 67.484 ns/op
+Iteration  44: 67.503 ns/op
+Iteration  45: 67.501 ns/op
+Iteration  46: 67.504 ns/op
+Iteration  47: 69.141 ns/op
+Iteration  48: 67.494 ns/op
+Iteration  49: 67.494 ns/op
+Iteration  50: 67.494 ns/op
+Iteration  51: 67.494 ns/op
+Iteration  52: 67.516 ns/op
+Iteration  53: 67.506 ns/op
+Iteration  54: 67.499 ns/op
+Iteration  55: 67.510 ns/op
+Iteration  56: 67.490 ns/op
+Iteration  57: 67.552 ns/op
+Iteration  58: 67.507 ns/op
+Iteration  59: 67.489 ns/op
+Iteration  60: 67.504 ns/op
+Iteration  61: 67.503 ns/op
+Iteration  62: 67.506 ns/op
+Iteration  63: 67.494 ns/op
+Iteration  64: 67.493 ns/op
+Iteration  65: 67.581 ns/op
+Iteration  66: 67.512 ns/op
+Iteration  67: 67.512 ns/op
+Iteration  68: 67.490 ns/op
+Iteration  69: 67.498 ns/op
+Iteration  70: 67.508 ns/op
+Iteration  71: 67.499 ns/op
+Iteration  72: 67.494 ns/op
+Iteration  73: 67.491 ns/op
+Iteration  74: 67.513 ns/op
+Iteration  75: 67.506 ns/op
+Iteration  76: 67.498 ns/op
+Iteration  77: 67.499 ns/op
+Iteration  78: 67.492 ns/op
+Iteration  79: 67.497 ns/op
+Iteration  80: 67.495 ns/op
+Iteration  81: 67.503 ns/op
+Iteration  82: 67.496 ns/op
+Iteration  83: 67.489 ns/op
+Iteration  84: 67.495 ns/op
+Iteration  85: 67.524 ns/op
+Iteration  86: 67.509 ns/op
+Iteration  87: 67.510 ns/op
+Iteration  88: 67.600 ns/op
+Iteration  89: 67.502 ns/op
+Iteration  90: 67.503 ns/op
+Iteration  91: 67.605 ns/op
+Iteration  92: 67.502 ns/op
+Iteration  93: 67.493 ns/op
+Iteration  94: 67.492 ns/op
+Iteration  95: 67.537 ns/op
+Iteration  96: 67.507 ns/op
+Iteration  97: 67.528 ns/op
+Iteration  98: 67.499 ns/op
+Iteration  99: 67.503 ns/op
+Iteration 100: 67.505 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth64":
+  67.526 ±(99.9%) 0.057 ns/op [Average]
+  (min, avg, max) = (67.476, 67.526, 69.141), stdev = 0.167
+  CI (99.9%): [67.469, 67.583] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 100 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth8
+
+# Run progress: 66.67% complete, ETA 00:05:10
+# Fork: 1 of 1
+# Warmup Iteration   1: 64.502 ns/op
+# Warmup Iteration   2: 64.478 ns/op
+# Warmup Iteration   3: 64.476 ns/op
+Iteration   1: 64.490 ns/op
+Iteration   2: 64.479 ns/op
+Iteration   3: 64.491 ns/op
+Iteration   4: 64.469 ns/op
+Iteration   5: 64.481 ns/op
+Iteration   6: 64.468 ns/op
+Iteration   7: 64.481 ns/op
+Iteration   8: 64.480 ns/op
+Iteration   9: 64.470 ns/op
+Iteration  10: 64.469 ns/op
+Iteration  11: 64.476 ns/op
+Iteration  12: 64.483 ns/op
+Iteration  13: 64.480 ns/op
+Iteration  14: 64.588 ns/op
+Iteration  15: 64.480 ns/op
+Iteration  16: 64.466 ns/op
+Iteration  17: 64.481 ns/op
+Iteration  18: 64.468 ns/op
+Iteration  19: 64.474 ns/op
+Iteration  20: 64.474 ns/op
+Iteration  21: 64.494 ns/op
+Iteration  22: 64.495 ns/op
+Iteration  23: 64.493 ns/op
+Iteration  24: 64.474 ns/op
+Iteration  25: 64.479 ns/op
+Iteration  26: 64.511 ns/op
+Iteration  27: 64.486 ns/op
+Iteration  28: 64.485 ns/op
+Iteration  29: 64.472 ns/op
+Iteration  30: 64.473 ns/op
+Iteration  31: 64.494 ns/op
+Iteration  32: 64.602 ns/op
+Iteration  33: 64.478 ns/op
+Iteration  34: 64.479 ns/op
+Iteration  35: 64.479 ns/op
+Iteration  36: 64.481 ns/op
+Iteration  37: 64.492 ns/op
+Iteration  38: 64.464 ns/op
+Iteration  39: 64.476 ns/op
+Iteration  40: 64.480 ns/op
+Iteration  41: 64.485 ns/op
+Iteration  42: 64.485 ns/op
+Iteration  43: 64.476 ns/op
+Iteration  44: 64.481 ns/op
+Iteration  45: 64.474 ns/op
+Iteration  46: 64.479 ns/op
+Iteration  47: 64.490 ns/op
+Iteration  48: 64.480 ns/op
+Iteration  49: 64.476 ns/op
+Iteration  50: 64.464 ns/op
+Iteration  51: 64.470 ns/op
+Iteration  52: 64.496 ns/op
+Iteration  53: 64.483 ns/op
+Iteration  54: 64.470 ns/op
+Iteration  55: 64.471 ns/op
+Iteration  56: 64.467 ns/op
+Iteration  57: 64.477 ns/op
+Iteration  58: 64.477 ns/op
+Iteration  59: 64.466 ns/op
+Iteration  60: 64.467 ns/op
+Iteration  61: 64.494 ns/op
+Iteration  62: 64.487 ns/op
+Iteration  63: 64.495 ns/op
+Iteration  64: 66.209 ns/op
+Iteration  65: 64.465 ns/op
+Iteration  66: 64.480 ns/op
+Iteration  67: 64.518 ns/op
+Iteration  68: 64.490 ns/op
+Iteration  69: 64.471 ns/op
+Iteration  70: 64.486 ns/op
+Iteration  71: 64.482 ns/op
+Iteration  72: 64.496 ns/op
+Iteration  73: 64.530 ns/op
+Iteration  74: 64.488 ns/op
+Iteration  75: 64.467 ns/op
+Iteration  76: 64.462 ns/op
+Iteration  77: 64.483 ns/op
+Iteration  78: 64.485 ns/op
+Iteration  79: 64.483 ns/op
+Iteration  80: 64.473 ns/op
+Iteration  81: 64.486 ns/op
+Iteration  82: 64.503 ns/op
+Iteration  83: 64.502 ns/op
+Iteration  84: 64.495 ns/op
+Iteration  85: 64.465 ns/op
+Iteration  86: 64.480 ns/op
+Iteration  87: 64.495 ns/op
+Iteration  88: 64.478 ns/op
+Iteration  89: 64.466 ns/op
+Iteration  90: 64.483 ns/op
+Iteration  91: 64.492 ns/op
+Iteration  92: 64.476 ns/op
+Iteration  93: 64.486 ns/op
+Iteration  94: 64.506 ns/op
+Iteration  95: 64.482 ns/op
+Iteration  96: 64.479 ns/op
+Iteration  97: 64.467 ns/op
+Iteration  98: 64.469 ns/op
+Iteration  99: 64.476 ns/op
+Iteration 100: 64.483 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth8":
+  64.501 ±(99.9%) 0.059 ns/op [Average]
+  (min, avg, max) = (64.462, 64.501, 66.209), stdev = 0.174
+  CI (99.9%): [64.442, 64.560] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 100 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.dispatch1Layer_mono
+
+# Run progress: 77.78% complete, ETA 00:03:26
+# Fork: 1 of 1
+# Warmup Iteration   1: 64.429 ns/op
+# Warmup Iteration   2: 64.446 ns/op
+# Warmup Iteration   3: 64.414 ns/op
+Iteration   1: 64.406 ns/op
+Iteration   2: 64.521 ns/op
+Iteration   3: 64.459 ns/op
+Iteration   4: 64.456 ns/op
+Iteration   5: 64.467 ns/op
+Iteration   6: 64.450 ns/op
+Iteration   7: 64.480 ns/op
+Iteration   8: 64.479 ns/op
+Iteration   9: 64.506 ns/op
+Iteration  10: 64.474 ns/op
+Iteration  11: 64.490 ns/op
+Iteration  12: 64.488 ns/op
+Iteration  13: 64.514 ns/op
+Iteration  14: 64.525 ns/op
+Iteration  15: 64.481 ns/op
+Iteration  16: 64.467 ns/op
+Iteration  17: 64.457 ns/op
+Iteration  18: 64.468 ns/op
+Iteration  19: 64.455 ns/op
+Iteration  20: 64.502 ns/op
+Iteration  21: 64.643 ns/op
+Iteration  22: 64.573 ns/op
+Iteration  23: 64.507 ns/op
+Iteration  24: 64.498 ns/op
+Iteration  25: 64.463 ns/op
+Iteration  26: 64.448 ns/op
+Iteration  27: 64.448 ns/op
+Iteration  28: 64.480 ns/op
+Iteration  29: 64.468 ns/op
+Iteration  30: 66.387 ns/op
+Iteration  31: 64.589 ns/op
+Iteration  32: 64.465 ns/op
+Iteration  33: 64.462 ns/op
+Iteration  34: 64.549 ns/op
+Iteration  35: 64.457 ns/op
+Iteration  36: 64.523 ns/op
+Iteration  37: 64.459 ns/op
+Iteration  38: 64.458 ns/op
+Iteration  39: 65.253 ns/op
+Iteration  40: 64.490 ns/op
+Iteration  41: 64.479 ns/op
+Iteration  42: 64.471 ns/op
+Iteration  43: 64.527 ns/op
+Iteration  44: 64.459 ns/op
+Iteration  45: 64.518 ns/op
+Iteration  46: 64.492 ns/op
+Iteration  47: 64.465 ns/op
+Iteration  48: 64.474 ns/op
+Iteration  49: 64.505 ns/op
+Iteration  50: 64.464 ns/op
+Iteration  51: 64.497 ns/op
+Iteration  52: 64.484 ns/op
+Iteration  53: 64.448 ns/op
+Iteration  54: 64.500 ns/op
+Iteration  55: 64.451 ns/op
+Iteration  56: 64.626 ns/op
+Iteration  57: 64.605 ns/op
+Iteration  58: 64.511 ns/op
+Iteration  59: 64.480 ns/op
+Iteration  60: 64.464 ns/op
+Iteration  61: 64.524 ns/op
+Iteration  62: 64.467 ns/op
+Iteration  63: 64.525 ns/op
+Iteration  64: 64.487 ns/op
+Iteration  65: 64.471 ns/op
+Iteration  66: 64.466 ns/op
+Iteration  67: 64.491 ns/op
+Iteration  68: 64.499 ns/op
+Iteration  69: 64.483 ns/op
+Iteration  70: 64.498 ns/op
+Iteration  71: 64.495 ns/op
+Iteration  72: 64.467 ns/op
+Iteration  73: 64.470 ns/op
+Iteration  74: 64.486 ns/op
+Iteration  75: 64.483 ns/op
+Iteration  76: 64.442 ns/op
+Iteration  77: 64.505 ns/op
+Iteration  78: 64.456 ns/op
+Iteration  79: 64.476 ns/op
+Iteration  80: 64.669 ns/op
+Iteration  81: 65.973 ns/op
+Iteration  82: 64.454 ns/op
+Iteration  83: 64.474 ns/op
+Iteration  84: 64.476 ns/op
+Iteration  85: 64.454 ns/op
+Iteration  86: 64.718 ns/op
+Iteration  87: 64.640 ns/op
+Iteration  88: 64.456 ns/op
+Iteration  89: 64.454 ns/op
+Iteration  90: 64.530 ns/op
+Iteration  91: 64.475 ns/op
+Iteration  92: 64.642 ns/op
+Iteration  93: 64.615 ns/op
+Iteration  94: 64.461 ns/op
+Iteration  95: 64.454 ns/op
+Iteration  96: 64.461 ns/op
+Iteration  97: 64.467 ns/op
+Iteration  98: 64.457 ns/op
+Iteration  99: 64.449 ns/op
+Iteration 100: 64.470 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.dispatch1Layer_mono":
+  64.535 ±(99.9%) 0.087 ns/op [Average]
+  (min, avg, max) = (64.406, 64.535, 66.387), stdev = 0.255
+  CI (99.9%): [64.449, 64.622] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 100 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.staticCall
+
+# Run progress: 88.89% complete, ETA 00:01:43
+# Fork: 1 of 1
+# Warmup Iteration   1: 60.892 ns/op
+# Warmup Iteration   2: 60.881 ns/op
+# Warmup Iteration   3: 60.878 ns/op
+Iteration   1: 60.875 ns/op
+Iteration   2: 60.849 ns/op
+Iteration   3: 60.863 ns/op
+Iteration   4: 60.900 ns/op
+Iteration   5: 60.880 ns/op
+Iteration   6: 60.875 ns/op
+Iteration   7: 60.892 ns/op
+Iteration   8: 60.873 ns/op
+Iteration   9: 60.851 ns/op
+Iteration  10: 60.842 ns/op
+Iteration  11: 60.860 ns/op
+Iteration  12: 60.853 ns/op
+Iteration  13: 60.860 ns/op
+Iteration  14: 60.850 ns/op
+Iteration  15: 60.848 ns/op
+Iteration  16: 60.870 ns/op
+Iteration  17: 60.876 ns/op
+Iteration  18: 60.877 ns/op
+Iteration  19: 60.864 ns/op
+Iteration  20: 60.861 ns/op
+Iteration  21: 60.849 ns/op
+Iteration  22: 60.845 ns/op
+Iteration  23: 60.887 ns/op
+Iteration  24: 60.885 ns/op
+Iteration  25: 60.866 ns/op
+Iteration  26: 60.851 ns/op
+Iteration  27: 60.853 ns/op
+Iteration  28: 60.843 ns/op
+Iteration  29: 60.850 ns/op
+Iteration  30: 60.857 ns/op
+Iteration  31: 60.851 ns/op
+Iteration  32: 60.843 ns/op
+Iteration  33: 60.984 ns/op
+Iteration  34: 60.895 ns/op
+Iteration  35: 60.879 ns/op
+Iteration  36: 60.873 ns/op
+Iteration  37: 60.876 ns/op
+Iteration  38: 60.854 ns/op
+Iteration  39: 60.870 ns/op
+Iteration  40: 60.856 ns/op
+Iteration  41: 60.873 ns/op
+Iteration  42: 60.872 ns/op
+Iteration  43: 60.875 ns/op
+Iteration  44: 60.885 ns/op
+Iteration  45: 60.859 ns/op
+Iteration  46: 60.901 ns/op
+Iteration  47: 60.852 ns/op
+Iteration  48: 60.986 ns/op
+Iteration  49: 60.854 ns/op
+Iteration  50: 60.882 ns/op
+Iteration  51: 60.866 ns/op
+Iteration  52: 60.843 ns/op
+Iteration  53: 60.848 ns/op
+Iteration  54: 60.851 ns/op
+Iteration  55: 60.885 ns/op
+Iteration  56: 60.869 ns/op
+Iteration  57: 60.863 ns/op
+Iteration  58: 60.879 ns/op
+Iteration  59: 60.878 ns/op
+Iteration  60: 60.880 ns/op
+Iteration  61: 60.862 ns/op
+Iteration  62: 60.841 ns/op
+Iteration  63: 60.856 ns/op
+Iteration  64: 60.849 ns/op
+Iteration  65: 60.881 ns/op
+Iteration  66: 60.847 ns/op
+Iteration  67: 60.887 ns/op
+Iteration  68: 60.859 ns/op
+Iteration  69: 60.846 ns/op
+Iteration  70: 60.863 ns/op
+Iteration  71: 60.952 ns/op
+Iteration  72: 60.841 ns/op
+Iteration  73: 60.846 ns/op
+Iteration  74: 60.888 ns/op
+Iteration  75: 61.625 ns/op
+Iteration  76: 60.864 ns/op
+Iteration  77: 60.879 ns/op
+Iteration  78: 60.871 ns/op
+Iteration  79: 60.855 ns/op
+Iteration  80: 60.871 ns/op
+Iteration  81: 60.864 ns/op
+Iteration  82: 60.843 ns/op
+Iteration  83: 60.853 ns/op
+Iteration  84: 60.863 ns/op
+Iteration  85: 60.982 ns/op
+Iteration  86: 60.835 ns/op
+Iteration  87: 60.871 ns/op
+Iteration  88: 60.880 ns/op
+Iteration  89: 60.936 ns/op
+Iteration  90: 60.860 ns/op
+Iteration  91: 60.866 ns/op
+Iteration  92: 60.858 ns/op
+Iteration  93: 60.867 ns/op
+Iteration  94: 60.862 ns/op
+Iteration  95: 60.864 ns/op
+Iteration  96: 60.876 ns/op
+Iteration  97: 62.470 ns/op
+Iteration  98: 60.884 ns/op
+Iteration  99: 60.850 ns/op
+Iteration 100: 60.878 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.staticCall":
+  60.893 ±(99.9%) 0.060 ns/op [Average]
+  (min, avg, max) = (60.835, 60.893, 62.470), stdev = 0.178
+  CI (99.9%): [60.833, 60.954] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:15:30
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                   Mode  Cnt   Score   Error  Units
+DispatchBenchmarkNoJIT.chainDepth128        avgt  100  64.850 ± 0.112  ns/op
+DispatchBenchmarkNoJIT.chainDepth16         avgt  100  64.546 ± 0.118  ns/op
+DispatchBenchmarkNoJIT.chainDepth2          avgt  100  64.972 ± 0.060  ns/op
+DispatchBenchmarkNoJIT.chainDepth32         avgt  100  68.087 ± 0.100  ns/op
+DispatchBenchmarkNoJIT.chainDepth4          avgt  100  64.762 ± 0.321  ns/op
+DispatchBenchmarkNoJIT.chainDepth64         avgt  100  67.526 ± 0.057  ns/op
+DispatchBenchmarkNoJIT.chainDepth8          avgt  100  64.501 ± 0.059  ns/op
+DispatchBenchmarkNoJIT.dispatch1Layer_mono  avgt  100  64.535 ± 0.087  ns/op
+DispatchBenchmarkNoJIT.staticCall           avgt  100  60.893 ± 0.060  ns/op
