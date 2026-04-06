@@ -127,13 +127,13 @@ public class DispatchBenchmarkNoJIT {
         bh.consume(chain512.area());
     }
 
-    @Benchmark
-    public void chainDepth1024(Blackhole bh) {
-        bh.consume(chain1024.area());
-    }
+    // @Benchmark
+    // public void chainDepth1024(Blackhole bh) {
+    //     bh.consume(chain1024.area());
+    // }
 
-    @Benchmark
-    public void chainDepth2048(Blackhole bh) {
-        bh.consume(chain2048.area());
-    }
+    // @Benchmark
+    // public void chainDepth2048(Blackhole bh) {
+    //     bh.consume(chain2048.area());
+    // }
 }
