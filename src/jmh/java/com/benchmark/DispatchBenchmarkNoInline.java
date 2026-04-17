@@ -30,9 +30,9 @@ import java.util.concurrent.TimeUnit;
 @Measurement(iterations = 20, time = 1, timeUnit = TimeUnit.SECONDS)
 @Fork(
     value = 1,
-    jvmArgsPrepend = {}   // Default fork: JIT on, no extra flags
+    jvmArgsPrepend = {"-XX:-Inline"}   // Disable inlining — force ineffienct route
 )
-public class DispatchBenchmark {
+public class DispatchBenchmarkNoInline {
 
     private static final double RADIUS = 5.0;
 

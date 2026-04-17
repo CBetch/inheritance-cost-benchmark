@@ -9,5 +9,5 @@ public class Chain2 extends Chain2Layer1 {
     public Chain2(double radius) { this.radius = radius; }
 
     @Override
-    public double area() { return Math.PI * radius * radius; }
+    public double area() { return super.area() + Math.PI * radius * radius; }
 }
