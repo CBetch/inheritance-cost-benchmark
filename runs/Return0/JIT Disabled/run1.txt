@@ -1,0 +1,429 @@
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth128
+
+# Run progress: 0.00% complete, ETA 00:03:27
+# Fork: 1 of 1
+# Warmup Iteration   1: 57.238 ns/op
+# Warmup Iteration   2: 57.561 ns/op
+# Warmup Iteration   3: 57.642 ns/op
+Iteration   1: 57.039 ns/op
+Iteration   2: 56.690 ns/op
+Iteration   3: 56.833 ns/op
+Iteration   4: 57.131 ns/op
+Iteration   5: 56.693 ns/op
+Iteration   6: 56.850 ns/op
+Iteration   7: 56.974 ns/op
+Iteration   8: 57.037 ns/op
+Iteration   9: 57.076 ns/op
+Iteration  10: 57.252 ns/op
+Iteration  11: 56.805 ns/op
+Iteration  12: 57.139 ns/op
+Iteration  13: 57.154 ns/op
+Iteration  14: 57.224 ns/op
+Iteration  15: 56.868 ns/op
+Iteration  16: 57.107 ns/op
+Iteration  17: 57.016 ns/op
+Iteration  18: 57.134 ns/op
+Iteration  19: 57.258 ns/op
+Iteration  20: 57.094 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth128":
+  57.019 ±(99.9%) 0.151 ns/op [Average]
+  (min, avg, max) = (56.690, 57.019, 57.258), stdev = 0.174
+  CI (99.9%): [56.867, 57.170] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth16
+
+# Run progress: 11.11% complete, ETA 00:03:06
+# Fork: 1 of 1
+# Warmup Iteration   1: 57.244 ns/op
+# Warmup Iteration   2: 56.931 ns/op
+# Warmup Iteration   3: 56.751 ns/op
+Iteration   1: 57.049 ns/op
+Iteration   2: 56.858 ns/op
+Iteration   3: 57.012 ns/op
+Iteration   4: 57.046 ns/op
+Iteration   5: 56.846 ns/op
+Iteration   6: 56.879 ns/op
+Iteration   7: 56.828 ns/op
+Iteration   8: 56.953 ns/op
+Iteration   9: 56.761 ns/op
+Iteration  10: 56.750 ns/op
+Iteration  11: 56.921 ns/op
+Iteration  12: 56.935 ns/op
+Iteration  13: 57.396 ns/op
+Iteration  14: 57.336 ns/op
+Iteration  15: 56.849 ns/op
+Iteration  16: 57.284 ns/op
+Iteration  17: 57.126 ns/op
+Iteration  18: 57.255 ns/op
+Iteration  19: 57.267 ns/op
+Iteration  20: 56.930 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth16":
+  57.014 ±(99.9%) 0.173 ns/op [Average]
+  (min, avg, max) = (56.750, 57.014, 57.396), stdev = 0.199
+  CI (99.9%): [56.842, 57.187] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth2
+
+# Run progress: 22.22% complete, ETA 00:02:42
+# Fork: 1 of 1
+# Warmup Iteration   1: 57.002 ns/op
+# Warmup Iteration   2: 57.036 ns/op
+# Warmup Iteration   3: 57.176 ns/op
+Iteration   1: 57.063 ns/op
+Iteration   2: 57.317 ns/op
+Iteration   3: 57.497 ns/op
+Iteration   4: 57.423 ns/op
+Iteration   5: 58.064 ns/op
+Iteration   6: 57.298 ns/op
+Iteration   7: 57.176 ns/op
+Iteration   8: 57.237 ns/op
+Iteration   9: 57.034 ns/op
+Iteration  10: 57.356 ns/op
+Iteration  11: 57.287 ns/op
+Iteration  12: 56.890 ns/op
+Iteration  13: 56.724 ns/op
+Iteration  14: 57.174 ns/op
+Iteration  15: 56.997 ns/op
+Iteration  16: 57.003 ns/op
+Iteration  17: 57.157 ns/op
+Iteration  18: 56.689 ns/op
+Iteration  19: 56.938 ns/op
+Iteration  20: 57.000 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth2":
+  57.166 ±(99.9%) 0.263 ns/op [Average]
+  (min, avg, max) = (56.689, 57.166, 58.064), stdev = 0.303
+  CI (99.9%): [56.903, 57.429] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth32
+
+# Run progress: 33.33% complete, ETA 00:02:19
+# Fork: 1 of 1
+# Warmup Iteration   1: 58.851 ns/op
+# Warmup Iteration   2: 58.983 ns/op
+# Warmup Iteration   3: 58.788 ns/op
+Iteration   1: 58.714 ns/op
+Iteration   2: 58.749 ns/op
+Iteration   3: 59.341 ns/op
+Iteration   4: 58.929 ns/op
+Iteration   5: 59.027 ns/op
+Iteration   6: 59.541 ns/op
+Iteration   7: 59.441 ns/op
+Iteration   8: 59.129 ns/op
+Iteration   9: 59.794 ns/op
+Iteration  10: 59.796 ns/op
+Iteration  11: 59.948 ns/op
+Iteration  12: 59.152 ns/op
+Iteration  13: 59.526 ns/op
+Iteration  14: 58.920 ns/op
+Iteration  15: 58.698 ns/op
+Iteration  16: 58.953 ns/op
+Iteration  17: 58.855 ns/op
+Iteration  18: 58.752 ns/op
+Iteration  19: 58.521 ns/op
+Iteration  20: 58.821 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth32":
+  59.130 ±(99.9%) 0.364 ns/op [Average]
+  (min, avg, max) = (58.521, 59.130, 59.948), stdev = 0.419
+  CI (99.9%): [58.766, 59.494] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth4
+
+# Run progress: 44.44% complete, ETA 00:01:56
+# Fork: 1 of 1
+# Warmup Iteration   1: 57.028 ns/op
+# Warmup Iteration   2: 57.142 ns/op
+# Warmup Iteration   3: 56.845 ns/op
+Iteration   1: 56.954 ns/op
+Iteration   2: 56.755 ns/op
+Iteration   3: 57.218 ns/op
+Iteration   4: 57.125 ns/op
+Iteration   5: 56.763 ns/op
+Iteration   6: 57.119 ns/op
+Iteration   7: 57.022 ns/op
+Iteration   8: 56.846 ns/op
+Iteration   9: 57.287 ns/op
+Iteration  10: 56.836 ns/op
+Iteration  11: 56.882 ns/op
+Iteration  12: 56.919 ns/op
+Iteration  13: 57.882 ns/op
+Iteration  14: 57.669 ns/op
+Iteration  15: 57.429 ns/op
+Iteration  16: 57.879 ns/op
+Iteration  17: 57.261 ns/op
+Iteration  18: 57.144 ns/op
+Iteration  19: 56.555 ns/op
+Iteration  20: 56.872 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth4":
+  57.121 ±(99.9%) 0.318 ns/op [Average]
+  (min, avg, max) = (56.555, 57.121, 57.882), stdev = 0.366
+  CI (99.9%): [56.803, 57.439] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth64
+
+# Run progress: 55.56% complete, ETA 00:01:33
+# Fork: 1 of 1
+# Warmup Iteration   1: 60.998 ns/op
+# Warmup Iteration   2: 61.024 ns/op
+# Warmup Iteration   3: 61.402 ns/op
+Iteration   1: 61.667 ns/op
+Iteration   2: 60.699 ns/op
+Iteration   3: 60.970 ns/op
+Iteration   4: 61.186 ns/op
+Iteration   5: 60.876 ns/op
+Iteration   6: 61.141 ns/op
+Iteration   7: 60.978 ns/op
+Iteration   8: 61.080 ns/op
+Iteration   9: 60.566 ns/op
+Iteration  10: 61.177 ns/op
+Iteration  11: 61.111 ns/op
+Iteration  12: 61.097 ns/op
+Iteration  13: 61.414 ns/op
+Iteration  14: 61.146 ns/op
+Iteration  15: 61.123 ns/op
+Iteration  16: 61.416 ns/op
+Iteration  17: 61.156 ns/op
+Iteration  18: 60.924 ns/op
+Iteration  19: 61.033 ns/op
+Iteration  20: 61.389 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth64":
+  61.107 ±(99.9%) 0.217 ns/op [Average]
+  (min, avg, max) = (60.566, 61.107, 61.667), stdev = 0.250
+  CI (99.9%): [60.890, 61.324] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.chainDepth8
+
+# Run progress: 66.67% complete, ETA 00:01:09
+# Fork: 1 of 1
+# Warmup Iteration   1: 58.411 ns/op
+# Warmup Iteration   2: 58.718 ns/op
+# Warmup Iteration   3: 58.369 ns/op
+Iteration   1: 58.727 ns/op
+Iteration   2: 57.957 ns/op
+Iteration   3: 58.199 ns/op
+Iteration   4: 58.175 ns/op
+Iteration   5: 58.152 ns/op
+Iteration   6: 58.220 ns/op
+Iteration   7: 58.561 ns/op
+Iteration   8: 58.276 ns/op
+Iteration   9: 58.312 ns/op
+Iteration  10: 58.227 ns/op
+Iteration  11: 58.174 ns/op
+Iteration  12: 58.158 ns/op
+Iteration  13: 58.184 ns/op
+Iteration  14: 58.334 ns/op
+Iteration  15: 58.208 ns/op
+Iteration  16: 58.372 ns/op
+Iteration  17: 58.468 ns/op
+Iteration  18: 58.487 ns/op
+Iteration  19: 58.408 ns/op
+Iteration  20: 58.185 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.chainDepth8":
+  58.289 ±(99.9%) 0.151 ns/op [Average]
+  (min, avg, max) = (57.957, 58.289, 58.727), stdev = 0.174
+  CI (99.9%): [58.138, 58.441] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.dispatch1Layer_mono
+
+# Run progress: 77.78% complete, ETA 00:00:46
+# Fork: 1 of 1
+# Warmup Iteration   1: 56.874 ns/op
+# Warmup Iteration   2: 56.694 ns/op
+# Warmup Iteration   3: 57.258 ns/op
+Iteration   1: 56.794 ns/op
+Iteration   2: 56.717 ns/op
+Iteration   3: 56.940 ns/op
+Iteration   4: 56.961 ns/op
+Iteration   5: 57.035 ns/op
+Iteration   6: 57.173 ns/op
+Iteration   7: 56.776 ns/op
+Iteration   8: 57.183 ns/op
+Iteration   9: 57.783 ns/op
+Iteration  10: 57.047 ns/op
+Iteration  11: 56.924 ns/op
+Iteration  12: 56.723 ns/op
+Iteration  13: 57.315 ns/op
+Iteration  14: 57.048 ns/op
+Iteration  15: 56.922 ns/op
+Iteration  16: 56.788 ns/op
+Iteration  17: 56.738 ns/op
+Iteration  18: 56.903 ns/op
+Iteration  19: 56.411 ns/op
+Iteration  20: 56.772 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.dispatch1Layer_mono":
+  56.948 ±(99.9%) 0.245 ns/op [Average]
+  (min, avg, max) = (56.411, 56.948, 57.783), stdev = 0.282
+  CI (99.9%): [56.702, 57.193] (assumes normal distribution)
+
+
+# JMH version: 1.37
+# VM version: JDK 21.0.10, OpenJDK 64-Bit Server VM, 21.0.10+7-LTS
+# VM invoker: /usr/lib/jvm/java-21-amazon-corretto.x86_64/bin/java
+# VM options: -Xint
+# Blackhole mode: compiler (auto-detected, use -Djmh.blackhole.autoDetect=false to disable)
+# Warmup: 3 iterations, 1 s each
+# Measurement: 20 iterations, 1 s each
+# Timeout: 10 min per iteration
+# Threads: 1 thread, will synchronize iterations
+# Benchmark mode: Average time, time/op
+# Benchmark: com.benchmark.DispatchBenchmarkNoJIT.staticCall
+
+# Run progress: 88.89% complete, ETA 00:00:23
+# Fork: 1 of 1
+# Warmup Iteration   1: 53.054 ns/op
+# Warmup Iteration   2: 52.849 ns/op
+# Warmup Iteration   3: 53.119 ns/op
+Iteration   1: 52.827 ns/op
+Iteration   2: 52.782 ns/op
+Iteration   3: 53.205 ns/op
+Iteration   4: 52.939 ns/op
+Iteration   5: 52.765 ns/op
+Iteration   6: 53.358 ns/op
+Iteration   7: 53.937 ns/op
+Iteration   8: 53.186 ns/op
+Iteration   9: 52.779 ns/op
+Iteration  10: 53.605 ns/op
+Iteration  11: 53.023 ns/op
+Iteration  12: 52.856 ns/op
+Iteration  13: 53.417 ns/op
+Iteration  14: 53.219 ns/op
+Iteration  15: 53.396 ns/op
+Iteration  16: 52.715 ns/op
+Iteration  17: 52.951 ns/op
+Iteration  18: 53.164 ns/op
+Iteration  19: 53.043 ns/op
+Iteration  20: 53.122 ns/op
+
+
+Result "com.benchmark.DispatchBenchmarkNoJIT.staticCall":
+  53.114 ±(99.9%) 0.275 ns/op [Average]
+  (min, avg, max) = (52.715, 53.114, 53.937), stdev = 0.316
+  CI (99.9%): [52.840, 53.389] (assumes normal distribution)
+
+
+# Run complete. Total time: 00:03:29
+
+REMEMBER: The numbers below are just data. To gain reusable insights, you need to follow up on
+why the numbers are the way they are. Use profilers (see -prof, -lprof), design factorial
+experiments, perform baseline and negative tests that provide experimental control, make sure
+the benchmarking environment is safe on JVM/OS/HW level, ask for reviews from the domain experts.
+Do not assume the numbers tell you what you want them to tell.
+
+NOTE: Current JVM experimentally supports Compiler Blackholes, and they are in use. Please exercise
+extra caution when trusting the results, look into the generated code to check the benchmark still
+works, and factor in a small probability of new VM bugs. Additionally, while comparisons between
+different JVMs are already problematic, the performance difference caused by different Blackhole
+modes can be very significant. Please make sure you use the consistent Blackhole mode for comparisons.
+
+Benchmark                                   Mode  Cnt   Score   Error  Units
+DispatchBenchmarkNoJIT.chainDepth128        avgt   20  57.019 ± 0.151  ns/op
+DispatchBenchmarkNoJIT.chainDepth16         avgt   20  57.014 ± 0.173  ns/op
+DispatchBenchmarkNoJIT.chainDepth2          avgt   20  57.166 ± 0.263  ns/op
+DispatchBenchmarkNoJIT.chainDepth32         avgt   20  59.130 ± 0.364  ns/op
+DispatchBenchmarkNoJIT.chainDepth4          avgt   20  57.121 ± 0.318  ns/op
+DispatchBenchmarkNoJIT.chainDepth64         avgt   20  61.107 ± 0.217  ns/op
+DispatchBenchmarkNoJIT.chainDepth8          avgt   20  58.289 ± 0.151  ns/op
+DispatchBenchmarkNoJIT.dispatch1Layer_mono  avgt   20  56.948 ± 0.245  ns/op
+DispatchBenchmarkNoJIT.staticCall           avgt   20  53.114 ± 0.275  ns/op
